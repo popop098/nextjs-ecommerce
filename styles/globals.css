@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+@tailwind base;
+h1 {
+  @apply text-9xl;
+  @apply font-bold;
+}
+h2 {
+  @apply text-8xl;
+  @apply font-bold;
+}
+h3 {
+  @apply text-7xl;
+  @apply font-bold;
+}
+h4 {
+  @apply text-6xl;
+  @apply font-bold;
+}
+h5 {
+  @apply text-5xl;
+  @apply font-bold;
+}
+h6 {
+  @apply text-4xl;
+  @apply font-bold;
+}
+a {
+  @apply text-blue-600 underline;
+}
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+}

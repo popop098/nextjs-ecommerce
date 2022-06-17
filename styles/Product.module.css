@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 100%;
+  max-width: 80%;
+  min-height: 80vh;
+  padding: 20px 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainImage {
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
+}
+.content div {
+  margin-left: 20px;
+  text-align: left;
+}
+.shipping {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  color: #808b95;
+}
+.title {
+  font-size: 18px;
+}
+.discount {
+  margin: 10px 0;
+}
+.discount span:first-of-type {
+  width: 100%;
+  color: #808b95;
+}
+.discount span:last-of-type {
+  margin-left: 10px;
+
+  text-decoration: line-through;
+  color: #e9e9e9;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #346aff;
+}
+.promote {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  text-align: left;
+
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #346aff;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 !important;
+}
+.buttons button {
+  width: 100%;
+  padding: 10px 15px;
+
+  background-color: #346aff;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+
+  list-style: none;
+  border-radius: 10px;
+  background-color: #f8fafa;
+}
+.info ul > li {
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+.info ul > li:first-of-type {
+  font-weight: bold;
+  color: #346aff;
+  border-bottom: 3px solid #346aff;
+}
+.info div {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin-top: 10px;
+
+  border-radius: 10px;
+  background-color: #f8fafa;
+}
+
+.info p {
+  margin-bottom: 10px;
+
+  color: #808b95;
+}
+.info span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #808b95;
+}
+@media (max-width: 1040px) {
+  .container {
+    width: 100vw;
+    margin: 40px auto;
+    padding: 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content div {
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: left;
+  }
+  .info ul {
+    font-size: 14px;
+  }
+  .info ul > li {
+    padding: 10px;
+  }
+  .info span {
+    font-size: 10px;
+  }
+}

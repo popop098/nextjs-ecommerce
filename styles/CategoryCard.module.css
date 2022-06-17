@@ -1,0 +1,40 @@
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.image {
+  object-fit: cover;
+  height: 100% !important;
+
+  opacity: 0.8;
+  transition: all 0.5s cubic-bezier(0.14, 0.96, 0.91, 0.6);
+  cursor: pointer;
+}
+.info {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.info div {
+  width: 20px;
+  height: 10px;
+  margin: 10px auto;
+
+  background-color: white;
+}
+.card:hover .image {
+  transform: scale(1.2);
+}
+@media (max-width: 1040px) {
+  .info div {
+    width: 100px !important;
+  }
+}

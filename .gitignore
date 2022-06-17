@@ -1,0 +1,6 @@
+.next
+node_modules
+.env.*
+.idea
+package-lock.json
+data/*
