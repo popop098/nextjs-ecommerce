@@ -135,6 +135,36 @@ $ npm run dev
 
 ---
 
+### 로그인 기능
+
+| 로그인페이지(PC)                                   | 로그인페이지(모바일)                                     |
+|----------------------------------------------|-------------------------------------------------|
+| <img alt="web6" src="/preview/login_pc.png"> | <img alt="mobile6" src="/preview/login_mb.png"> |
+
+### 로그인 기능 - 에러
+
+| 로그인페이지(PC)                                       | 로그인페이지(모바일)                                         |
+|--------------------------------------------------|-----------------------------------------------------|
+| <img alt="web7" src="/preview/login_err_pc.png"> | <img alt="mobile7" src="/preview/login_err_mb.png"> |
+|<img src="/preview/login_field_err_pc.png" alt="web8"> | <img src="/preview/login_field_err_mb.png" alt="mobile8"> |
+
+### 회원가입 기능
+
+| 회원가입페이지(PC)                                     | 회원가입페이지(모바일)                                       |
+|-------------------------------------------------|----------------------------------------------------|
+| <img alt="web9" src="/preview/register_pc.png"> | <img alt="mobile9" src="/preview/register_mb.png"> |
+
+### 회원가입 기능 - 에러
+
+| 회원가입페이지(PC)                                                        | 회원가입페이지(모바일)                                                  |
+|--------------------------------------------------------------------|---------------------------------------------------------------|
+| <img alt="web10" src="/preview/register_id_err_pc.png"> | <img alt="mobile10" src="/preview/register_id_err_mb.png">    |
+| <img src="/preview/register_field_err_pc.png" alt="web11">         | <img src="/preview/register_field_err_mb.png" alt="mobile11"> |
+
+### 헤더
+
+<img src="/preview/header.png">
+
 ## 폴더 구조
 
 ```
